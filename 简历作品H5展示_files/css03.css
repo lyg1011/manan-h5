@@ -1,0 +1,524 @@
+/* 基类样式 */
+*{ margin: 0; padding: 0; box-sizing: border-box;}
+html, body{ height: 100%; overflow: hidden;}
+.contain{ width: 100%; height: 100%; overflow: hidden; }
+.wrapper{ width: 100%; }
+.screen{ width: 100%; position: relative; overflow: hidden;}
+
+
+/* 页面样式 */
+.first-screen{
+	background-image: url(../images/bj01.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+.s-screen{
+	background-image: url(../images/bj02.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+.third-screen{
+	background-image: url(../images/bj02.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+.fourth-screen{
+	background-image: url(../images/bj02.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+.fifth-screen{
+	background-image: url(../images/bj02.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+.pagesix-screen{
+	background-image: url(../images/bj02.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+.over-screen{
+	background-image: url(../images/bj02.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+
+.animation .tit01{
+	height: 146px;
+	width: 225px;
+	margin: 50px auto 10px;
+	background-image: url(../images/tou01.png);
+	background-size: 225px 280px;
+	animation: a-Up 0.6s linear 1 0s forwards;
+	opacity: 0;
+}
+
+.animation .tit02{
+	height: 60px;
+	width: 225px;
+	margin: 2px auto 2px;
+	background-image: url(../images/tou01.png);
+	background-size: 225px 280px;
+	background-position: 0px -146px;
+	animation: a-Up 0.6s linear 1 0.6s forwards;
+	opacity: 0;
+}
+
+.animation .tit03{
+	height: 74px;
+	width: 225px;
+	margin: 2px auto 5px;
+	background-image: url(../images/tou01.png);
+	background-size: 225px 280px;
+	background-position: 0px -206px;
+	animation: a-Up 0.6s linear 1 1.2s forwards;
+	opacity: 0;
+}
+.animation .a-Up{
+	width: 24px;
+	height: 20px;
+	background-size:24px 20px;
+	background-image: url(../images/icon.png);
+	position: absolute;
+	left: 50%;
+	bottom: 30px;
+	animation:arrowUp 1s linear infinite 0s forwards;
+	opacity:0;
+	margin-left:-12px;
+	}
+	
+.animation .t01{
+	width: 211px;
+	height: 53px;
+	background-image: url(../images/tou02.png);
+	background-color: rgba(0,0,0,0.6);
+	margin: 40px auto 10px;
+	background-size: 180px auto;
+	background-repeat: no-repeat;
+	background-position: 10px 7px;
+	animation: a-Up 0.5s linear 1 1s forwards;
+	opacity: 0;
+	position: relative;
+	left: 10px;
+	}
+
+.t02{
+	opacity:0;
+	}
+.animation .t02{
+	width: 300px;
+	height: 126px;
+	background-image: url(../images/tou03.png);
+	background-color: rgba(0,0,0,0.5);
+	margin: -10px auto 10px;
+	background-size: 300px auto;
+	background-repeat: no-repeat;
+	background-position: 5px 7px;
+	animation: a-Up 1s linear 1 1.5s forwards;
+	opacity: 0;
+	}	
+
+.images {
+	margin-top: 30px;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-left: auto;
+	list-style-type: none;
+	width: 300px;
+	position: relative;
+	left: 3px;
+}
+.images li {
+	float: left;
+	opacity:0;
+}
+.images li img {
+	height: 263px;
+	width: 93px;
+	margin-right: 7px;
+}
+
+
+.animation .images li:nth-child(1){
+	animation: slideLeft 0.6s ease-out 1 3s both;
+	} 
+.animation .images li:nth-child(2){
+	animation: slideLeft 0.6s ease-out 1 3.6s both;
+	} 
+.animation .images li:nth-child(3){
+	animation: slideLeft 0.6s ease-out 1 4s both;
+	} 
+	
+.animation .about-01:nth-child(2) {
+	animation: flipInX 1s 1s both;
+	
+}	
+
+.animation .about-01:nth-child(3) {
+	animation: flipInX 1s  2s both;
+	
+}	
+
+.animation .about-01:nth-child(4) {
+	animation: flipInX 1s  3s both;
+	
+}
+
+.animation .about-01:nth-child(5) {
+	animation: flipInX 1s  4s both;
+	
+}
+.animation .about-01:nth-child(6) {
+	animation: flipInX 1s  5s both;
+	
+}
+
+.t04{
+	opacity:0;
+	}
+.animation .t04{
+	width: 264px;
+	height: 66px;
+	background-image: url(../images/tou04.png);
+	background-color: rgba(0,0,0,0.6);
+	margin: 30px auto 10px;
+	background-size: 230px auto;
+	background-repeat: no-repeat;
+	background-position: 10px 7px;
+	animation: a-Up 1s linear 1 0s forwards;
+	opacity: 0;
+	position: relative;
+	left: 20px;
+	}
+
+.about-01 {
+	width: 80%;
+	margin: 20px auto 6px;
+	-webkit-backface-visibility: visible !important;
+  	backface-visibility: visible !important;
+	
+	
+}	
+.about-01 .p01 {
+	font-family: "Microsoft YaHei UI", "微软雅黑";
+	font-size: 12px;
+	font-weight: lighter;
+	color: #FFF;
+	
+}
+.about-01 .p02 {
+	font-family: "Microsoft YaHei UI", "微软雅黑";
+	font-size: 18px;
+	font-weight: bold;
+	color: #FFF;
+}
+.about-01 .p03 {
+	font-family: "Microsoft YaHei UI", "微软雅黑";
+	font-size: 14px;
+	font-weight: lighter;
+	color: #FFF;
+	margin-top: 10px;
+	text-align: justify;
+}
+
+.t05{
+	opacity:0;
+	}
+
+.animation .t05{
+	width: 264px;
+	height: 66px;
+	background-image: url(../images/tou05.png);
+	background-color: rgba(0,0,0,0.6);
+	margin: 15px auto 6px;
+	background-size: 230px auto;
+	background-repeat: no-repeat;
+	background-position: 10px 7px;
+	animation: a-Up 1s linear 1 0s forwards;
+	opacity: 0;
+	position: relative;
+	left: 20px;
+	}
+	
+.t06{
+	opacity:0;
+	}
+.animation .t06{
+	width: 264px;
+	height: 66px;
+	background-image: url(../images/tou05.png);
+	background-color: rgba(0,0,0,0.6);
+	margin: 15px auto 6px;
+	background-size: 230px auto;
+	background-repeat: no-repeat;
+	background-position: 10px 7px;
+	animation: a-Up 1s linear 1 0s forwards;
+	opacity: 0;
+	position: relative;
+	left: 20px;
+	}
+	
+.t07{
+	opacity:0;
+	}	
+.animation .t07{
+	width: 264px;
+	height: 66px;
+	background-image: url(../images/tou06.png);
+	background-color: rgba(0,0,0,0.6);
+	margin: 15px auto 6px;
+	background-size: 230px auto;
+	background-repeat: no-repeat;
+	background-position: 10px 7px;
+	animation: a-Up 1s linear 1 0s forwards;
+	opacity: 0;
+	position: relative;
+	left: 20px;
+	}
+	
+.t07-01{
+	opacity:0;
+	}	
+.animation .t07-01{
+	animation: a-Up 2s linear  1s forwards;
+	opacity: 0;
+	position: relative;
+	left: 45px;
+	}
+.t07-02{
+	opacity:0;
+	}	
+.animation .t07-02{
+	animation: a-Up 2.8s linear  2s forwards;
+	opacity: 0;
+	position: relative;
+	left: 45px;
+	top: 40px;
+	}
+	
+.t08{
+	opacity:0;
+	}
+
+.animation .t08{
+	width: 325px;
+	height: 164px;
+	animation: zoomOutUp 2s  1s forwards;
+	opacity: 0;
+	position: relative;
+	left: 20px;
+	margin-top: 70px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+	}
+.animation .t08 img{
+	width: 292px;
+	height: 164px;
+	position: relative;
+	top: 150px;
+	}
+	
+.t09{
+	opacity:0;
+	}
+.animation .t09{
+	width: 305px;
+	height: 66px;
+	animation: fadeInUpBig 1s 3s forwards;
+	position: relative;
+	left: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	}
+.animation .t09 img{
+	width: 264px;
+	height: 66px;
+	position: relative;
+	top: 50%;
+	}
+@-webkit-keyframes a-Up{
+	0%{ 
+		opacity: 0; 
+		-webkit-transform: translateY(-30px);
+	}
+	
+	100%{ 
+		opacity:1; 
+		-webkit-transform: translateY(0px);
+	}
+}
+
+@-webkit-keyframes arrowUp{
+	0%{ 
+		opacity: 0; 
+		-webkit-transform: translateY(30px);
+	}
+	50%{ 
+		opacity: 1; 
+		-webkit-transform: translateY(0);
+	}
+	100%{ 
+		opacity: 0; 
+		-webkit-transform: translateY(-30px);
+	}
+}
+
+@-webkit-keyframes slideLeft{
+	0%{ 
+		opacity: 0; 
+		-webkit-transform: translateY(-30px);
+	}
+	
+	100%{ 
+		opacity:1; 
+		-webkit-transform: translateY(0px);
+	}
+}
+
+
+@-webkit-keyframes flipInX {
+  from {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+
+  40% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  60% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+    opacity: 1;
+  }
+
+  80% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+  }
+
+  to {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px);
+  }
+}
+
+@keyframes flipInX {
+  from {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+
+  40% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  60% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+    opacity: 1;
+  }
+
+  80% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+  }
+
+  to {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px);
+  }
+}
+
+@-webkit-keyframes zoomOutUp {
+  40% {
+    opacity: 1;
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -2000px, 0);
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -2000px, 0);
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  }
+}
+
+@keyframes zoomOutUp {
+  40% {
+    opacity: 1;
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -2000px, 0);
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -2000px, 0);
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  }
+}
+
+.zoomOutUp {
+  -webkit-animation-name: zoomOutUp;
+  animation-name: zoomOutUp;
+}
+
+@-webkit-keyframes fadeInUpBig {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 2000px, 0);
+    transform: translate3d(0, 2000px, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInUpBig {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 2000px, 0);
+    transform: translate3d(0, 2000px, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInUpBig {
+  -webkit-animation-name: fadeInUpBig;
+  animation-name: fadeInUpBig;
+}
+
+
